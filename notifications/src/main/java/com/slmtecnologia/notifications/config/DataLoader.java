@@ -27,7 +27,7 @@ public class DataLoader implements CommandLineRunner {
                 .forEach(channelRepository::save);
 
        Arrays.stream(StatusEnum.values())
-               .map(StatusEnum::toChannel)
+               .map(StatusEnum::toStatus)
                .forEach(statusRepository::save);
     }
 }

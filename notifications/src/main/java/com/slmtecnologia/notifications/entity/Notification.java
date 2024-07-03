@@ -38,6 +38,14 @@ public class Notification {
         this.channel = channel;
     }
 
+    public Notification(LocalDateTime dateTime, String destination, String message, Status status, Channel channel) {
+        this.dateTime = dateTime;
+        this.destination = destination;
+        this.message = message;
+        this.status = status;
+        this.channel = channel;
+    }
+
     public Long getNotificationId() {
         return notificationId;
     }

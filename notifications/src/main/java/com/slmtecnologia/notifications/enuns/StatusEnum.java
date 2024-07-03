@@ -17,7 +17,7 @@ public enum StatusEnum {
         this.description = description;
     }
 
-    public static Status toChannel(StatusEnum statusEnum){
+    public static Status toStatus(StatusEnum statusEnum){
         return new Status(statusEnum.id, statusEnum.description);
     }
 }
