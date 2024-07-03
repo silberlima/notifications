@@ -1,5 +1,6 @@
 package com.slmtecnologia.notifications.entity;
 
+import com.slmtecnologia.notifications.enuns.StatusEnum;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
